@@ -3,7 +3,7 @@ Meta.Description=OpenRA Dedicated Server for Command & Conquer: Combined Arms
 Meta.OS=Windows, Linux
 Meta.AarchSupport=Emulated
 Meta.Arch=x86_64
-Meta.Author=Greelan
+Meta.Author=Gandorques
 Meta.URL=https://www.openra.net/
 Meta.DisplayImageSource=url:https://github.com/Inq8/CAmod/blob/master/mods/ca/icon-3x.png?raw=true
 Meta.EndpointURIFormat=
@@ -24,7 +24,6 @@ Meta.NoCommercialUsage=False
 Meta.ConfigVersion=1.4
 Meta.ReleaseNotes=
 Meta.BreakingReleaseNotes=
-Meta.AppConfigId=90715f92-951f-4740-9539-e47f11175d53
 App.DisplayName=OpenRA - Combined Arms
 App.RootDir=./openra/
 App.BaseDirectory=./openra/
