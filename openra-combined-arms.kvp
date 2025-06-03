@@ -24,6 +24,7 @@ Meta.NoCommercialUsage=False
 Meta.ConfigVersion=1.4
 Meta.ReleaseNotes=
 Meta.BreakingReleaseNotes=
+Meta.AppConfigId=6f1cf9ed-180c-4ad0-8295-97734e7815e0
 App.DisplayName=OpenRA - Combined Arms
 App.RootDir=./openra/
 App.BaseDirectory=./openra/
