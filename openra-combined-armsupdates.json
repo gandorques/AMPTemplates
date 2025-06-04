@@ -22,7 +22,7 @@
         "UpdateSourcePlatform": "Linux",
         "UpdateSource": "Executable",
         "UpdateSourceData": "/bin/bash",
-		"UpdateSourceArgs": "-c \"cd openra/appimage && CURRENT_VERSION=$(wget -qO- https://api.github.com/repos/Inq8/CAmod/tags | jq -r '.[0].name') && wget -qO CombinedArms.AppImage \\\"https://github.com/Inq8/CAmod/releases/download/${CURRENT_VERSION}/CombinedArms-${CURRENT_VERSION}-x86_64.AppImage\\\" && echo \\\"Combined Arms version $CURRENT_VERSION downloaded\\\"\""
+		"UpdateSourceArgs": "-c \"cd openra/appimage && CURRENT_VERSION=$(wget -qO- https://api.github.com/repos/Inq8/CAmod/tags | jq -r '.[0].name') && wget -qO OpenRA.AppImage \\\"https://github.com/Inq8/CAmod/releases/download/${CURRENT_VERSION}/CombinedArms-${CURRENT_VERSION}-x86_64.AppImage\\\" && echo \\\"Combined Arms version $CURRENT_VERSION downloaded\\\"\""
         "UpdateSourceConditionSetting": "ServerBuild",
         "UpdateSourceConditionValue": "release",
         "SkipOnFailure": false
@@ -42,7 +42,7 @@
         "UpdateSourcePlatform": "Linux",
         "UpdateSource": "Executable",
         "UpdateSourceData": "/bin/bash",
-        "UpdateSourceArgs": "-c \"cd openra/appimage && CURRENT_VERSION=$(wget -qO- https://api.github.com/repos/Inq8/CAmod/tags | jq -r '.[0].name') && wget -qO CombinedArms.AppImage \\\"https://github.com/Inq8/CAmod/releases/download/${CURRENT_VERSION}/CombinedArms-${CURRENT_VERSION}-x86_64.AppImage\\\" && echo \\\"Combined Arms version $CURRENT_VERSION downloaded\\\"\""
+        "UpdateSourceArgs": "-c \"cd openra/appimage && CURRENT_VERSION=$(wget -qO- https://api.github.com/repos/Inq8/CAmod/tags | jq -r '.[0].name') && wget -qO OpenRA.AppImage \\\"https://github.com/Inq8/CAmod/releases/download/${CURRENT_VERSION}/CombinedArms-${CURRENT_VERSION}-x86_64.AppImage\\\" && echo \\\"Combined Arms version $CURRENT_VERSION downloaded\\\"\""
         "UpdateSourceConditionSetting": "ServerBuild",
         "UpdateSourceConditionValue": "playtest",
         "SkipOnFailure": false
@@ -71,7 +71,7 @@
         "UpdateSourcePlatform": "Linux",
         "UpdateSource": "Executable",
         "UpdateSourceData": "/bin/bash",
-        "UpdateSourceArgs": "-c \"cd ./openra/appimage && chmod +x CombinedArms.AppImage && ./CombinedArms.AppImage --appimage-extract >/dev/null && rm -f CombinedArms.AppImage\"",
+        "UpdateSourceArgs": "-c \"cd ./openra/appimage && chmod +x OpenRA.AppImage && ./OpenRA.AppImage --appimage-extract >/dev/null && rm -f OpenRA.AppImage\"",
         "SkipOnFailure": false
     },
     {
