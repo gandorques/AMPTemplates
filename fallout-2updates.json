@@ -1,0 +1,10 @@
+[
+    {
+        "UpdateStageName": "Github",
+        "UpdateSourcePlatform": "All",
+        "UpdateSource": "GithubRelease",
+        "UpdateSourceArgs": "https://github.com/Cahb/fallout2-ce-coop",
+        "UnzipUpdateSource": true,
+        "DeleteAfterExtract": true
+    }
+]

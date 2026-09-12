@@ -1,0 +1,16 @@
+[
+    {
+        "Protocol": "Both",
+        "Port": 9200,
+        "Ref": "MainGamePort",
+        "Name": "Main Game Port",
+        "Description": "Port used for main game traffic"
+    },
+    {
+        "Protocol": "Both",
+        "Port": 9201,
+        "Ref": "RemoteAdminPort",
+        "Name": "Remote Admin Port",
+        "Description": "Port used for RCON administration"
+    }
+]
