@@ -28,7 +28,7 @@
         "DisplayName": "Server Password",
         "Description": "Password that clients must supply in order to connect. NOTE: Unless a mod is used to remove the need for a password, the server requires a password that is at least 5 characters long and that is not included in the server name. Default: 12345.",
         "FieldName": "ServerPassword",
-        "InputType": "password",
+        "InputType": "Password",
         "Category": "Valheim:stadia_controller",
         "Subcategory": "General:dns:1",
         "ParamFieldName": "password",
@@ -331,6 +331,7 @@
         "EnumValues": {
             "public": "Public (default)",
             "default_old": "Previous stable",
+            "default_pre1_0": "Last stable build before version 1.0",
             "default_preml": "Last stable build before Mistlands",
             "default_precta": "Last stable build before Call to Arms",
             "default_prebw": "Last stable build before Bog Witch",

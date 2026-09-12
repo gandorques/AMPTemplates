@@ -18,7 +18,7 @@
         "Description": "Sets the password for players to join the server. Default is no password",
         "Keywords": "server,password,HostServerPassword",
         "FieldName": "HostServerPassword",
-        "InputType": "password",
+        "InputType": "Password",
         "ParamFieldName": "/Script/BoatGame.BGCustomHostServerSettings.HostServerPassword",
         "DefaultValue": "",
         "EnumValues": {}
@@ -53,6 +53,34 @@
         "DefaultValue": "300",
         "Placeholder": "300",
         "Suffix": "seconds",
+        "EnumValues": {}
+    },
+    {
+        "DisplayName": "Public IP Selection Mode",
+        "Category": "Voyagers of Nera:stadia_controller",
+        "Subcategory": "Server:dns:1",
+        "Description": "Sets whether the server or AMP should automatically select the public IP advertised for the server, or whether it should use the IP set under Server Public IP",
+        "Keywords": "public,ip,address,eos,override,host,EOS_OVERRIDE_HOST_IP",
+        "FieldName": "EOS_OVERRIDE_HOST_IP",
+        "InputType": "enum",
+        "ParamFieldName": "EOS_OVERRIDE_HOST_IP",
+        "DefaultValue": "",
+        "EnumValues": {
+            "": "Server automatically selects (default)",
+            "{{$ExternalIP}}": "AMP automatically selects",
+            "{{ManualPublicIP}}": "Manual selection"
+        }
+    },
+    {
+        "DisplayName": "Server Public IP",
+        "Category": "Voyagers of Nera:stadia_controller",
+        "Subcategory": "Server:dns:1",
+        "Description": "Sets the public IP advertised for the server, if \"Manual selection\" is selected as the Public IP Selection Mode. Useful if the host network has multiple public IPs, or the server is behind a public proxy or VPN",
+        "Keywords": "manual,public,ip,eos,override,host,EOS_OVERRIDE_HOST_IP",
+        "FieldName": "ManualPublicIP",
+        "InputType": "text",
+        "ParamFieldName": "ManualPublicIP",
+        "DefaultValue": "",
         "EnumValues": {}
     },
     {
@@ -136,6 +164,51 @@
         "FieldName": "DisableDropItemsOnDeath",
         "InputType": "checkbox",
         "ParamFieldName": "/Script/BoatGame.BGCustomGameSettings.DisableDropItemsOnDeath",
+        "DefaultValue": "False",
+        "EnumValues": {
+            "True": "True",
+            "False": "False"
+        }
+    },
+    {
+        "DisplayName": "Disable Encumbrance",
+        "Category": "Voyagers of Nera:stadia_controller",
+        "Subcategory": "Gameplay:joystick:2",
+        "Description": "If set, players will not become encumbered",
+        "Keywords": "disable,encumbrance,disableencumbrance",
+        "FieldName": "DisableEncumbrance",
+        "InputType": "checkbox",
+        "ParamFieldName": "/Script/BoatGame.BGCustomGameSettings.DisableEncumbrance",
+        "DefaultValue": "False",
+        "EnumValues": {
+            "True": "True",
+            "False": "False"
+        }
+    },
+    {
+        "DisplayName": "Disable Fog Of War",
+        "Category": "Voyagers of Nera:stadia_controller",
+        "Subcategory": "Gameplay:joystick:2",
+        "Description": "If set, fog of war will be disabled",
+        "Keywords": "disable,fog,war,disablefogofwar",
+        "FieldName": "DisableFogOfWar",
+        "InputType": "checkbox",
+        "ParamFieldName": "/Script/BoatGame.BGCustomGameSettings.DisableFogOfWar",
+        "DefaultValue": "False",
+        "EnumValues": {
+            "True": "True",
+            "False": "False"
+        }
+    },
+    {
+        "DisplayName": "Disable Weather",
+        "Category": "Voyagers of Nera:stadia_controller",
+        "Subcategory": "Gameplay:joystick:2",
+        "Description": "If set, weather will be disabled",
+        "Keywords": "disable,weather,disableweather",
+        "FieldName": "DisableWeather",
+        "InputType": "checkbox",
+        "ParamFieldName": "/Script/BoatGame.BGCustomGameSettings.DisableWeather",
         "DefaultValue": "False",
         "EnumValues": {
             "True": "True",

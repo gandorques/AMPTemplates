@@ -126,7 +126,7 @@
         "Description": "Password for players and spectators to connect to the server",
         "Keywords": "password",
         "FieldName": "GamePassword",
-        "InputType": "password",
+        "InputType": "Password",
         "IsFlagArgument": false,
         "ParamFieldName": "Engine.AccessControl.GamePassword",
         "IncludeInCommandLine": false,
@@ -156,7 +156,7 @@
         "Description": "In-game and webserver admin password (for Standard admin mode)",
         "Keywords": "admin,password",
         "FieldName": "AdminPassword",
-        "InputType": "password",
+        "InputType": "Password",
         "IsFlagArgument": false,
         "ParamFieldName": "Engine.AccessControl.AdminPassword",
         "IncludeInCommandLine": false,
@@ -1195,20 +1195,5 @@
         "Placeholder": "20",
         "Suffix": "minutes",
         "EnumValues": {}
-    },
-    {
-        "DisplayName": "Server Executable (Linux)",
-        "Category": "Updates",
-        "Subcategory": "Runtime Configuration:build:3",
-        "Description": "Sets whether to run the 32 bit or 64 bit version of the server executable on Linux",
-        "Keywords": "server,executable,32bit,64bit",
-        "FieldName": "LinuxServerExecutable",
-        "InputType": "enum",
-        "ParamFieldName": "LinuxServerExecutable",
-        "DefaultValue": "ucc-bin-linux-amd64",
-        "EnumValues": {
-            "ucc-bin": "32 bit",
-            "ucc-bin-linux-amd64": "64 bit (default)"
-        }
     }
 ]

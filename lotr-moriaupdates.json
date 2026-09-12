@@ -20,10 +20,10 @@
         "UpdateStageName": "MoriaServerConfig.ini Download",
         "UpdateSourcePlatform": "All",
         "UpdateSource": "FetchURL",
-        "UpdateSourceData": "https://raw.githubusercontent.com/CubeCoders/AMPTemplates/main/lotr-moriaserverconfig.ini",
+        "UpdateSourceData": "https://cdn-repo.c7rs.com/AMPTemplates/lotr-moriaserverconfig.ini",
         "UpdateSourceTarget": "{{$FullBaseDir}}",
         "UpdateSourceArgs": "MoriaServerConfig.ini",
-        "OverwriteExistingFiles": false,
+        "OverwriteExistingFiles": true,
         "SkipOnFailure": false
     },
     {
@@ -31,7 +31,7 @@
         "UpdateSourcePlatform": "Linux",
         "UpdateSource": "Executable",
         "UpdateSourceData": "/bin/bash",
-        "UpdateSourceArgs": "-c \"rm -rf \\\"{{$FullRootDir}}.wine\\\" >/dev/null 2>&1; WINEPREFIX=\\\"{{$FullRootDir}}.wine\\\" WINEARCH=win64 WINEDEBUG=-all XDG_RUNTIME_DIR=/tmp /usr/bin/wineboot --init\"",
+        "UpdateSourceArgs": "-c \"rm -rf \\\"{{$FullRootDir}}.wine\\\" >/dev/null 2>&1; WINEPREFIX=\\\"{{$FullRootDir}}.wine\\\" WINEARCH=win64 WINEDEBUG=-all /usr/bin/wineboot --init\"",
         "SkipOnFailure": false
     }
 ]

@@ -74,13 +74,13 @@
         "Subcategory": "Server:dns:1",
         "Description": "Sets the game mode. Configure the relevant config file accordingly - 'Plutonium/storage/t6/dedicated.cfg' for Multiplayer, 'Plutonium/storage/t6/dedicated_zm.cfg' for Zombies",
         "Keywords": "game,mode,gamemode",
-        "FieldName": "GameMode",
+        "FieldName": "GameModeNew",
         "InputType": "enum",
-        "ParamFieldName": "GameMode",
-        "DefaultValue": "t6mp \"{{$FullBaseDir}}T6\" -dedicated +set key {{ServerKey}} +set fs_game \"\" +exec dedicated.cfg",
+        "ParamFieldName": "GameModeNew",
+        "DefaultValue": "t6mp \"{{$FullBaseDir}}T6\" -dedicated +set key {{ServerKey}} +set fs_game \"{{Mod}}\" +exec dedicated.cfg",
         "EnumValues": {
-            "t6mp \"{{$FullBaseDir}}T6\" -dedicated +set key {{ServerKey}} +set fs_game \"\" +exec dedicated.cfg": "Multiplayer (default)",
-            "t6zm \"{{$FullBaseDir}}T6\" -dedicated +set key {{ServerKey}} +set fs_game \"\" +exec dedicated_zm.cfg": "Zombies"
+            "t6mp \"{{$FullBaseDir}}T6\" -dedicated +set key {{ServerKey}} +set fs_game \"{{Mod}}\" +exec dedicated.cfg": "Multiplayer (default)",
+            "t6zm \"{{$FullBaseDir}}T6\" -dedicated +set key {{ServerKey}} +set fs_game \"{{Mod}}\" +exec dedicated_zm.cfg": "Zombies"
         }
     },
     {
@@ -90,7 +90,7 @@
         "Description": "Sets the [server key](https://platform.plutonium.pw/serverkeys) required to run the server. This also sets the server name. A Plutonium account must be at least one week old to create a key, and game ownership must be [verified](https://forum.plutonium.pw/topic/32250/an-update-on-game-ownership-verification)",
         "Keywords": "server,key,serverkey",
         "FieldName": "ServerKey",
-        "InputType": "password",
+        "InputType": "Password",
         "ParamFieldName": "ServerKey",
         "DefaultValue": "",
         "Required": true,
@@ -103,7 +103,7 @@
         "Description": "Sets the password to join the server. Default is no password",
         "Keywords": "password,g_password",
         "FieldName": "g_password",
-        "InputType": "password",
+        "InputType": "Password",
         "ParamFieldName": "g_password",
         "DefaultValue": "",
         "EnumValues": {}
@@ -173,6 +173,21 @@
         "ParamFieldName": "map_name",
         "DefaultValue": "mp_dockside",
         "Placeholder": "mp_dockside",
+        "EnumValues": {}
+    },
+    {
+        "DisplayName": "Load Mod",
+        "Category": "Call of Duty Black Ops II:stadia_controller",
+        "Subcategory": "Server:dns:1",
+        "Description": "Sets the mod to load when starting the server, based on the path to the mod in the 'Plutonium/storage/t6' directory",
+        "Keywords": "mods,mod,fs_game",
+        "FieldName": "Mod",
+        "InputType": "text",
+        "ParamFieldName": "Mod",
+        "IncludeInCommandLine": true,
+        "SkipIfEmpty": true,
+        "DefaultValue": "",
+        "Placeholder": "mods/modname",
         "EnumValues": {}
     },
     {
