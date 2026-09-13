@@ -4,7 +4,7 @@ Meta.OS=Windows, Linux
 Meta.AarchSupport=Unknown
 Meta.Arch=x86_64
 Meta.Author=Custom AMP Template
-Meta.URL=https://steamcommunity.com/sharedfiles/filedetails/?id=3770450698
+Meta.URL=https://steamcommunity.com
 Meta.DisplayImageSource=steam:261550
 Meta.EndpointURIFormat=
 Meta.ConfigManifest=bannerlord-coopconfig.json
@@ -30,7 +30,7 @@ Meta.ImportableExtensions=[]
 App.DisplayName=Bannerlord Coop Dedicated Server
 App.RootDir=./bannerlord-coop/
 App.BaseDirectory=./bannerlord-coop/261550/steamapps/workshop/content/261550/3770450698/DedicatedServer/
-App.StoresSupported=SteamWorkshop
+App.StoresSupported=SteamCMD
 App.StoreDownloadLocations={"SteamWorkshop":"{$FullBaseDir}261550/steamapps/workshop/content/261550/3770450698"}
 App.SteamWorkshopDownloadLocation={$FullBaseDir}261550/steamapps/workshop/content/261550/3770450698
 App.ExecutableWin=261550\steamapps\workshop\content\261550\3770450698\DedicatedServer\BannerlordCoopServer.exe
@@ -111,4 +111,3 @@ Limits.SleepDelayMinutes=5
 Limits.DozeDelay=2
 Limits.AutoRetryCount=2
 Limits.SleepStartThresholdSeconds=25
-
