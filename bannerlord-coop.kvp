@@ -35,7 +35,7 @@ App.StoresSupported=
 #App.FetchURL.URL=https://www.moddb.com/downloads/start/313475?referer=https%3A%2F%2Fwww.moddb.com%2Fmods%2Fbannerlord-coop%2Fdownloads
 App.SteamWorkshopDownloadLocation=
 App.ExecutableWin=BannerlordCoopServer.exe
-App.ExecutableLinux=/usr/bin/wine
+App.ExecutableLinux=/usr/bin/xvfb-run
 App.WorkingDir=261550
 App.LinuxCommandLineArgs=-a wine "./steamapps/workshop/content/261550/3770450698/DedicatedServer/BannerlordCoopServer.exe"
 App.WindowsCommandLineArgs=--data-dir "..\\..\\..\\..\\..\\CoopData\\DedicatedServer"
