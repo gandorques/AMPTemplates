@@ -2,7 +2,7 @@
     {
         "UpdateStageName": "Steam Workshop Download",
         "UpdateSourcePlatform": "All",
-        "UpdateSource": "SteamCMD",
+        "UpdateSource": "SteamWorkshop",
         "UpdateSourceData": "261550",
         "UpdateSourceArgs": "3770450698",
         "SkipOnFailure": false
