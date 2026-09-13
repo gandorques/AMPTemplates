@@ -30,8 +30,9 @@ Meta.ImportableExtensions=[]
 App.DisplayName=Bannerlord Coop Dedicated Server
 App.RootDir=./bannerlord-coop/
 App.BaseDirectory=./bannerlord-coop/261550
-App.StoresSupported=SteamCMD
-App.UpdateSourcesType=SteamCMD
+App.StoresSupported=
+#App.UpdateSourcesType=FetchURL
+#App.FetchURL.URL=https://www.moddb.com/downloads/start/313475?referer=https%3A%2F%2Fwww.moddb.com%2Fmods%2Fbannerlord-coop%2Fdownloads
 App.SteamWorkshopDownloadLocation=
 App.ExecutableWin=BannerlordCoopServer.exe
 App.ExecutableLinux=/usr/bin/wine
