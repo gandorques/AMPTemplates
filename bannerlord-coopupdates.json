@@ -37,6 +37,22 @@
         "UpdateSourceArgs": "{{$FullBaseDir}}Dotnet",
         "SkipOnFailure": false
     },
+	    {
+        "UpdateStageName": "Create Persistent Data Directory",
+        "UpdateSourcePlatform": "All",
+        "UpdateSource": "CreateDirectory",
+        "UpdateSourceArgs": "{{$FullRootDir}}CoopData/DedicatedServer/Game Saves",
+        "OverwriteExistingFiles": false,
+        "SkipOnFailure": false
+    },
+    {
+        "UpdateStageName": "Create Persistent Logs Directory",
+        "UpdateSourcePlatform": "All",
+        "UpdateSource": "CreateDirectory",
+        "UpdateSourceArgs": "{{$FullRootDir}}CoopData/DedicatedServer/logs",
+        "OverwriteExistingFiles": false,
+        "SkipOnFailure": false
+    }
     {
         "UpdateStageName": "ASP.NET Core Runtime Download",
         "UpdateSourcePlatform": "Linux",
