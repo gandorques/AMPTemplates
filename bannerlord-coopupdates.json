@@ -1,1 +1,7 @@
-[]
+[
+  {
+    "UpdateSourceType": "SteamCMD",
+    "Description": "Mount & Blade II: Bannerlord Dedicated Server und Workshop Inhalt",
+    "AppId": 1834900
+  }
+]
