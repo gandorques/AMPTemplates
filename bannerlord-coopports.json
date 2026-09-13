@@ -1,0 +1,9 @@
+[
+    {
+        "Protocol": "UDP",
+        "Port": 4200,
+        "Ref": "GamePort",
+        "Name": "Game Port",
+        "Description": "UDP port used by the Bannerlord Coop dedicated server."
+    }
+]

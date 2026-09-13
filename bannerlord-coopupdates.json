@@ -1,0 +1,26 @@
+[
+    {
+        "UpdateStageName": "Steam Workshop Download",
+        "UpdateSourcePlatform": "All",
+        "UpdateSource": "SteamCMD",
+        "UpdateSourceData": "261550",
+        "UpdateSourceArgs": "3770450698",
+        "SkipOnFailure": false
+    },
+    {
+        "UpdateStageName": "Create Persistent Data Directory",
+        "UpdateSourcePlatform": "All",
+        "UpdateSource": "CreateDirectory",
+        "UpdateSourceArgs": "{{$FullRootDir}}CoopData/DedicatedServer/Game Saves",
+        "OverwriteExistingFiles": false,
+        "SkipOnFailure": false
+    },
+    {
+        "UpdateStageName": "Create Persistent Logs Directory",
+        "UpdateSourcePlatform": "All",
+        "UpdateSource": "CreateDirectory",
+        "UpdateSourceArgs": "{{$FullRootDir}}CoopData/DedicatedServer/logs",
+        "OverwriteExistingFiles": false,
+        "SkipOnFailure": false
+    }
+]
