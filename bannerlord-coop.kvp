@@ -22,6 +22,10 @@ Meta.ExtraContainerPackages=["lib32gcc-s1", "lib32stdc++6", "libatomic1"]
 Meta.ConfigReleaseState=NotSpecified
 Meta.NoCommercialUsage=False
 Meta.ConfigVersion=1
+Meta.ReleaseNotes=
+Meta.BreakingReleaseNotes=
+Meta.AppConfigId=24b54c9a-bb13-408d-86e7-bc6f2cb88d19
+Meta.ImportableExtensions=[]
 
 App.DisplayName=Bannerlord Coop Dedicated Server
 App.RootDir=./bannerlord-coop/
