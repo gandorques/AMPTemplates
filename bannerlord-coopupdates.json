@@ -37,7 +37,7 @@
         "UpdateSourceArgs": "{{$FullBaseDir}}Dotnet",
         "SkipOnFailure": false
     },
-	    {
+	{
         "UpdateStageName": "Create Persistent Data Directory",
         "UpdateSourcePlatform": "All",
         "UpdateSource": "CreateDirectory",
