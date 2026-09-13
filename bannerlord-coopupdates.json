@@ -7,6 +7,16 @@
         "UpdateSourceArgs": "-c \"[[ -L \\\"{{$FullBaseDir}}bin/Win64_Shipping_Server\\\" ]] && rm \\\"{{$FullBaseDir}}bin/Win64_Shipping_Server\\\" >/dev/null 2>&1\"",
         "SkipOnFailure": true
     },
+	    {
+        "UpdateStageName": "Update",
+        "UpdateSourcePlatform": "All",
+        "UpdateSource": "SteamCMD",
+        "UpdateSourceData": "261550",
+        "UpdateSourceArgs": "261550",
+        "UpdateSourceTarget": "{{$FullBaseDir}}",
+        "ForceDownloadPlatform": "Windows",
+        "SkipOnFailure": false
+    },
     {
         "UpdateStageName": "SteamCMD Download",
         "UpdateSourcePlatform": "All",
