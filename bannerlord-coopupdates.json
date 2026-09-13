@@ -52,7 +52,7 @@
         "UpdateSourceArgs": "{{$FullRootDir}}CoopData/DedicatedServer/logs",
         "OverwriteExistingFiles": false,
         "SkipOnFailure": false
-    }
+    },
     {
         "UpdateStageName": "ASP.NET Core Runtime Download",
         "UpdateSourcePlatform": "Linux",
