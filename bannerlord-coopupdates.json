@@ -5,14 +5,7 @@
     "UpdateSource": "SteamCMD",
     "UpdateSourceData": "261550",
     "UpdateSourceArgs": "",
-    "SkipOnFailure": false
-  },
-  {
-    "UpdateStageName": "SteamCMD Coop Mod Download",
-    "UpdateSourcePlatform": "All",
-    "UpdateSource": "SteamCMD",
-    "UpdateSourceData": "261550",
-    "UpdateSourceArgs": "+workshop_download_item 261550 3770450698",
+    "ForceDownloadPlatform": "Windows",
     "SkipOnFailure": false
   }
 ]
