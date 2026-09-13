@@ -29,14 +29,13 @@ Meta.ImportableExtensions=[]
 
 App.DisplayName=Bannerlord Coop Dedicated Server
 App.RootDir=./bannerlord-coop/
-App.BaseDirectory=./bannerlord-coop/
+App.BaseDirectory=./bannerlord-coop/261550
 App.StoresSupported=SteamCMD
 App.UpdateSourcesType=SteamCMD
-App.StoreDownloadLocations={"SteamWorkshop":"{$FullRootDir}"}
-App.SteamWorkshopDownloadLocation={$FullRootDir}
+App.SteamWorkshopDownloadLocation=
 App.ExecutableWin=BannerlordCoopServer.exe
 App.ExecutableLinux=/usr/bin/wine
-App.WorkingDir=
+App.WorkingDir=261550
 App.LinuxCommandLineArgs=BannerlordCoopServer.exe --data-dir "../../../../../CoopData/DedicatedServer"
 App.WindowsCommandLineArgs=--data-dir "..\\..\\..\\..\\..\\CoopData\\DedicatedServer"
 App.CommandLineArgs={$PlatformArgs} {$FormattedArgs}
