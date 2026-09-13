@@ -1,5 +1,13 @@
 [
     {
+        "UpdateStageName": "SteamCMD Download",
+        "UpdateSourcePlatform": "All",
+        "UpdateSource": "SteamCMD",
+        "UpdateSourceData": "1863440",
+        "UpdateSourceArgs": "261550",
+        "SkipOnFailure": false
+    },
+    {
         "UpdateStageName": "Steam Workshop Download",
         "UpdateSourcePlatform": "All",
         "UpdateSource": "SteamWorkshop",
