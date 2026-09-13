@@ -4,7 +4,7 @@
     "UpdateSourcePlatform": "All",
     "UpdateSource": "SteamCMD",
     "UpdateSourceData": "1863440",
-    "UpdateSourceArgs": "",
+    "UpdateSourceArgs": "+workshop_download_item 261550 3770450698",
     "SkipOnFailure": false
   },
   {
