@@ -5,22 +5,25 @@
         "UpdateSource": "SteamCMD",
         "UpdateSourceData": "38410",
         "UpdateSourceArgs": "38410",
-        "ForceDownloadPlatform": "Windows"
+        "ForceDownloadPlatform": "Windows",
+        "SkipOnFailure": true
     },
     {
         "UpdateStageName": "GitHub Download (Linux)",
         "UpdateSourcePlatform": "Linux",
         "UpdateSource": "FetchURL",
-        "UpdateSourceData": "https://github.com/Cahb/fallout2-ce-coop/releases/download/v0.1/fallout2-coop-v0.1.0-linux-x86_64.tar.gz",
+        "UpdateSourceData": "https://github.com/Cahb/fallout2-ce-coop/releases/download/v0.4/fallout2-coop-v0.4.0-linux-x86_64.tar.gz",
         "UnzipUpdateSource": true,
+        "OverwriteExistingFiles": true,
         "DeleteAfterExtract": true
     },
     {
         "UpdateStageName": "GitHub Download (Windows)",
         "UpdateSourcePlatform": "Windows",
         "UpdateSource": "FetchURL",
-        "UpdateSourceData": "https://github.com/Cahb/fallout2-ce-coop/releases/download/v0.1/fallout2-coop-v0.1.0-windows-x86_64.zip",
+        "UpdateSourceData": "https://github.com/Cahb/fallout2-ce-coop/releases/download/v0.4/fallout2-coop-v0.4.0-windows-x86_64.zip",
         "UnzipUpdateSource": true,
+        "OverwriteExistingFiles": true,
         "DeleteAfterExtract": true
     }
 ]
