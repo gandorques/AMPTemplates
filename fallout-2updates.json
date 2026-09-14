@@ -6,5 +6,13 @@
         "UpdateSourceArgs": "https://github.com/Cahb/fallout2-ce-coop",
         "UnzipUpdateSource": true,
         "DeleteAfterExtract": true
+    },
+    {
+        "UpdateStageName": "Steam Download",
+        "UpdateSourcePlatform": "All",
+        "UpdateSource": "SteamCMD",
+        "UpdateSourceData": "38410",
+        "UpdateSourceArgs": "38410",
+        "ForceDownloadPlatform": "Windows"
     }
 ]
