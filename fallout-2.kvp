@@ -38,7 +38,7 @@ App.ExecutableLinux=38410/f2_server
 App.WorkingDir=38410
 App.LinuxCommandLineArgs=
 App.WindowsCommandLineArgs=
-App.CommandLineArgs=+ip {{$ApplicationIPBinding}} +port {{$ApplicationPort1}} +queryport {{$ApplicationPort2}} +rconpassword "{{$RemoteAdminPassword}}" +maxusers {{$MaxUsers}} {{$FormattedArgs}}
+App.CommandLineArgs=+set F2_SERVER_MAP={{f2_startmap}} +ip {{$ApplicationIPBinding}} +port {{$ApplicationPort1}} +queryport {{$ApplicationPort2}} +rconpassword "{{$RemoteAdminPassword}}" +maxusers {{$MaxUsers}} {{$FormattedArgs}}
 App.UseLinuxIOREDIR=False
 App.AppSettings={}
 App.EnvironmentVariables={"LD_LIBRARY_PATH":"{{$FullBaseDir}}linux64:{{$FullRootDir}}linux64:%LD_LIBRARY_PATH%","SteamAppId":"38410"}
@@ -86,7 +86,7 @@ App.UserActions=[]
 App.ForceUpdate=False
 App.ForceUpdateReason=
 App.Compatibility=None
-App.SteamUpdateAnonymousLogin=False
+App.SteamUpdateAnonymousLogin=True
 App.RapidStartup=false
 App.SmartExcludeExemptions=["*.cfg","*.conf","*.config","*.ini","*.json","*.xml","*.properties","*.kvp","*.yml","*.yaml","*.toml","*.lua"]
 App.SmartExcludeSupported=True
