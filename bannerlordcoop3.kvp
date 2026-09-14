@@ -1,10 +1,10 @@
 Meta.Author=BomberPilot
 Meta.Description=Bannerlord Coop Mod Server
-Meta.DisplayImageSource=url:https://images.steamusercontent.com/ugc/9702955137534937620/6DF9F80A8A10EF6B9B7EF3DD3E07B98FE3DD2D6D/
+Meta.DisplayImageSource=url:https://steamusercontent.com
 Meta.DisplayName=Bannerlordcoop3
 Meta.EndpointURIFormat=
 Meta.OS=Windows, Linux
-Meta.URL=https://steamcommunity.com/sharedfiles/filedetails/?id=3770450698
+Meta.URL=https://steamcommunity.com
 Meta.MinAMPVersion=2.8.0.4
 Meta.ConfigManifest=bannerlordcoop3config.json
 Meta.ConfigRoot=bannerlordcoop3.kvp
@@ -24,11 +24,14 @@ Meta.BreakingReleaseNotes=
 Meta.AppConfigId=bc74da61-128a-4931-ba09-5431fae89921
 Meta.ImportableExtensions=[]
 Meta.AppIsMultiIPAware=False
+
 App.AdminMethod=STDIO
 App.ApplicationPort1=4200
 App.ApplicationReadyMode=RCONConnected
 App.BaseDirectory=./bannerlordcoop3/
-App.CommandLineArgs=+ip {{$ApplicationIPBinding}} +port {{$ApplicationPort1}} +queryport {{$ApplicationPort2}} +rconpassword "{{$RemoteAdminPassword}}" +maxusers {{$MaxUsers}} {{$FormattedArgs}}
+App.CommandLineArgs={{$PlatformArgs}} +ip {{$ApplicationIPBinding}} +port {{$ApplicationPort1}} +queryport {{$ApplicationPort2}} +rconpassword "{{$RemoteAdminPassword}}" +maxusers {{$MaxUsers}} {{$FormattedArgs}}
+App.LinuxCommandLineArgs="./DedicatedServer/BannerlordCoopServer.exe"
+App.WindowsCommandLineArgs=
 App.CommandLineParameterDelimiter=
 App.CommandLineParameterFormat=-{0} "{1}"
 App.DisplayName=Bannerlordcoop3
@@ -41,7 +44,8 @@ App.HasWritableConsole=true
 App.RapidStartup=false
 App.RootDir=./bannerlordcoop3/
 App.UpdateSource=None
-App.WorkingDir=
+App.WorkingDir=bannerlordcoop3
+
 Console.AppReadyRegex=^Server is ready.$
 Console.ThrowawayMessageRegex=^(WARNING|ERROR): Shader.+$
 Console.UserChatRegex=^(?<username>.+?): (?<message>.+)$
