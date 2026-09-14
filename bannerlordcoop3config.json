@@ -1,1 +1,31 @@
-[]
+[
+     {
+        "DisplayName": "Steam Workshop Mods",
+        "Category": "",
+        "Description": "",
+        "Keywords": "",
+        "FieldName": "SteamWorkshopMods",
+        "InputType": "text",
+        "IsFlagArgument": false,
+        "ParamFieldName": "SteamWorkshopMods",
+        "IncludeInCommandLine": false,
+        "DefaultValue": "3770450698",
+        "EnumValues": {}
+    },
+    {
+        "DisplayName": "Workshop Mods beim Start updaten",
+        "Category": "",
+        "Description": "",
+        "Keywords": "",
+        "FieldName": "AutoUpdateWorkshopMods",
+        "InputType": "checkbox",
+        "IsFlagArgument": false,
+        "ParamFieldName": "AutoUpdateWorkshopMods",
+        "IncludeInCommandLine": false,
+        "DefaultValue": "true",
+        "EnumValues": {
+            "true": "True",
+            "false": "False"
+        }
+    } 
+]
