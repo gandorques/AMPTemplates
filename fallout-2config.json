@@ -1,1 +1,18 @@
-[]
+[
+    {
+        "DisplayName": "Name",
+        "Category": "Fallout 2:stadia_controller",
+        "Subcategory": "Server:dns:1",
+        "Description": "",
+        "Keywords": "name",
+        "FieldName": "Field",
+        "InputType": "text",
+        "MaxLength": 30,
+        "ParamFieldName": "set F2_SERVER_MAP=",
+        "IncludeInCommandLine": true,
+        "SkipIfEmpty": true,
+        "DefaultValue": "",
+        "Placeholder": "artemple",
+        "Suffix": ".map"
+    }
+]
