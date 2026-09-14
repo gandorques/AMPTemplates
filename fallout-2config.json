@@ -1,14 +1,14 @@
 [
     {
-        "DisplayName": "Name",
+        "DisplayName": "Startup Map",
         "Category": "Fallout 2:stadia_controller",
         "Subcategory": "Server:dns:1",
         "Description": "",
-        "Keywords": "name",
-        "FieldName": "Field",
+        "Keywords": "startup,map",
+        "FieldName": "startmap",
         "InputType": "text",
         "MaxLength": 30,
-        "ParamFieldName": "set F2_SERVER_MAP=",
+        "ParamFieldName": "set F2_SERVER_MAP={{startmap}}",
         "IncludeInCommandLine": true,
         "SkipIfEmpty": true,
         "DefaultValue": "",
