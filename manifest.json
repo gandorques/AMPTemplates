@@ -1,9 +1,9 @@
 {
-	"id": "a23f7f5c-e22d-4696-84ad-5ca754d3dfba",
-	"authors": ["gandorques - Made with AMP Config Generator"],
-	"origin": "https://github.com/gandorques/AMPTemplates.git",
-	"url": "https://github.com/gandorques/AMPTemplates",
+	"id": "ec280171-c67b-4cf8-923f-dc27fea91ee1",
+	"authors": ["CubeCoders Limited", "AMP Community"],
+	"origin": "https://github.com/CubeCoders/AMPTemplates.git",
+	"url": "https://github.com/CubeCoders/AMPTemplates",
 	"imagefile": "",
-	"prefix": "gandorques",
+	"prefix": "",
 	"repotype": "AppTemplates"
 }
