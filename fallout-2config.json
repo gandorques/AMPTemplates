@@ -12,7 +12,6 @@
         "IncludeInCommandLine": true,
         "SkipIfEmpty": true,
         "DefaultValue": "",
-        "Placeholder": "artemple",
-        "Suffix": ".map"
+        "Placeholder": "artemple.map"
     }
 ]

@@ -36,9 +36,9 @@ App.StoreDownloadLocations={}
 App.ExecutableWin=38410\f2_server.exe
 App.ExecutableLinux=38410/f2_server
 App.WorkingDir=38410
-App.LinuxCommandLineArgs=
-App.WindowsCommandLineArgs=
-App.CommandLineArgs=+set F2_SERVER_MAP={{f2_startmap}} +ip {{$ApplicationIPBinding}} +port {{$ApplicationPort1}} +queryport {{$ApplicationPort2}} +rconpassword "{{$RemoteAdminPassword}}" +maxusers {{$MaxUsers}} {{$FormattedArgs}}
+App.LinuxCommandLineArgs=set F2_SERVER_MAP={{f2_startmap}}
+App.WindowsCommandLineArgs=set F2_SERVER_MAP={{f2_startmap}}
+App.CommandLineArgs=+ip {{$ApplicationIPBinding}} +port {{$ApplicationPort1}} +queryport {{$ApplicationPort2}} +rconpassword "{{$RemoteAdminPassword}}" +maxusers {{$MaxUsers}} {{$FormattedArgs}}
 App.UseLinuxIOREDIR=False
 App.AppSettings={}
 App.EnvironmentVariables={"LD_LIBRARY_PATH":"{{$FullBaseDir}}linux64:{{$FullRootDir}}linux64:%LD_LIBRARY_PATH%","SteamAppId":"38410"}
