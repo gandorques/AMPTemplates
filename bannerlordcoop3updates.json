@@ -1,13 +1,10 @@
 [
-    {
-        "UpdateStageName": "Mod Download",
-        "UpdateSourcePlatform": "All",
-        "UpdateSource": "",
-        "UpdateSourceData": "https://www.moddb.com/downloads/mirror/313475/124/f8479a889bbd51082142a967419de0bc/?referer=https%3A%2F%2Fwww.moddb.com%2Fmods%2Fbannerlord-coop%2Fdownloads",
-        "UpdateSourceExtra": "",
-        "ForceDownloadPlatform": "",
-        "UnzipUpdateSource": true,
-        "OverwriteExistingFiles": true,
-        "DeleteAfterExtract": true
-    }
+  {
+    "SourceType": "FetchFromUrl",
+    "Url": "https://www.moddb.com/downloads/mirror/313475/124/f8479a889bbd51082142a967419de0bc/?referer=https%3A%2F%2Fwww.moddb.com%2Fmods%2Fbannerlord-coop%2Fdownloads",
+    "SaveAs": "server-files.zip",
+    "Unpack": true,
+    "UnpackTarget": "./",
+    "Overwrite": true
+  }
 ]
