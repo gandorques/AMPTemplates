@@ -5,7 +5,6 @@
         "UpdateSourcePlatform": "All",
         "UpdateSource": "FetchURL",
         "UpdateSourceData": "https://www.moddb.com/downloads/mirror/313475/124/f8479a889bbd51082142a967419de0bc/?referer=https%3A%2F%2Fwww.moddb.com%2Fmods%2Fbannerlord-coop%2Fdownloads",
-        "UpdateSourceArgs": "server.zip",
         "UpdateSourceTarget": "/bannerlordcoop3/serverfiles/",
         "UnzipUpdateSource": true,
         "OverwriteExistingFiles": true,
