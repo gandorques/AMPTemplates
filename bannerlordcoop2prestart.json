@@ -1,9 +1,2 @@
 [
-    {
-        "UpdateStageName": "Config Simlink",
-        "UpdateSourcePlatform": "Linux",
-        "UpdateSource": "CreateSymlink",
-        "UpdateSourceData": "CoopData",
-        "UpdateSourceArgs": "../.wine/drive_c/users/amp/Documents/Mount and Blade II Bannerlord/CoopData"
-    }
 ]
