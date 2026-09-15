@@ -5,6 +5,7 @@
         "UpdateSource": "SteamCMD",
         "UpdateSourceData": "1863440",
         "UpdateSourceArgs": "261550",
-        "UpdateSourceExtra": "3770450698"
+        "UpdateSourceExtra": "3770450698",
+        "ForceDownloadPlatform": "Windows"
     }
 ]
