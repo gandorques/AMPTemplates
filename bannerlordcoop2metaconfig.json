@@ -1,14 +1,1 @@
-[
-    {
-        "ConfigFile": "CoopData/DedicatedServer/server-config.json",
-        "AutoMap": true,
-        "Importable": true,
-        "ConfigType": "json"
-    },
-    {
-        "ConfigFile": "CoopData/mod-config.json",
-        "AutoMap": true,
-        "Importable": true,
-        "ConfigType": "json"
-    }
-]
+[]
