@@ -36,8 +36,8 @@ App.StoreDownloadLocations={}
 App.ExecutableWin=38410\f2_server.exe
 App.ExecutableLinux=38410/f2_server
 App.WorkingDir=38410
-App.LinuxCommandLineArgs=set  F2_SERVER_NET={{$MainGamePort}} F2_SERVER_CMD={{$RemoteAdminPort}}
-App.WindowsCommandLineArgs=set F2_SERVER_MAP={{f2_startmap}}
+App.LinuxCommandLineArgs=env  F2_SERVER_NET={{$MainGamePort}} F2_SERVER_CMD={{$RemoteAdminPort}}
+App.WindowsCommandLineArgs=set  F2_SERVER_NET={{$MainGamePort}} F2_SERVER_CMD={{$RemoteAdminPort}}
 App.CommandLineArgs=+ip {{$ApplicationIPBinding}} +port {{$ApplicationPort1}} +queryport {{$ApplicationPort2}} +rconpassword "{{$RemoteAdminPassword}}" +maxusers {{$MaxUsers}} {{$FormattedArgs}}
 App.UseLinuxIOREDIR=False
 App.AppSettings={}
