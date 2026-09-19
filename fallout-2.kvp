@@ -104,7 +104,7 @@ Console.FilterMatchRegex=
 Console.FilterMatchReplacement=
 Console.ThrowawayMessageRegex=^(WARNING|ERROR): Shader.+$
 Console.AppReadyRegex=^f\d+_server:\s+control\s+client\s+connected$
-Console.UserJoinRegex=^f\d+_server:\s+account\s+'(?<username>.+)'\s+->\s+slot\s+(?<sessionid>.+)\/.*$
+Console.UserJoinRegex=^f\d+_server:\s+client\s+.*\s+as\s+session\s+(?<sessionid>.+)$
 Console.UserLeaveRegex=^f\d+_server:\s+control\s+slot\s+.*\s+released\s+\(session\s+(?<sessionid>.+)\s+gone\)$
 Console.UserChatRegex=^f\d+_server:\s+control\s+say\s+slot=(?<sessionid>.+)\s+'(?<message>.+)'$
 Console.UpdateAvailableRegex=
