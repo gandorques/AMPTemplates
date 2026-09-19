@@ -33,12 +33,12 @@ App.BaseDirectory=./fallout-2/38410/
 App.StoresSupported=None
 App.StoreSpecificSettings={}
 App.StoreDownloadLocations={}
-App.ExecutableWin="set F2_SERVER_NET={{$MainGamePort}} F2_SERVER_CMD={{$RemoteAdminPort}} && 38410\f2_server.exe"
-App.ExecutableLinux="env F2_SERVER_NET={{$MainGamePort}} F2_SERVER_CMD={{$RemoteAdminPort}} && 38410/f2_server"
+App.ExecutableWin="38410\f2_server.exe"
+App.ExecutableLinux="38410/f2_server"
 App.WorkingDir=38410
 App.LinuxCommandLineArgs=env F2_SERVER_NET={{$MainGamePort}} F2_SERVER_CMD={{$RemoteAdminPort}}
 App.WindowsCommandLineArgs=set F2_SERVER_NET={{$MainGamePort}} F2_SERVER_CMD={{$RemoteAdminPort}}
-App.CommandLineArgs=+ip {{$ApplicationIPBinding}} +port {{$ApplicationPort1}} +queryport {{$ApplicationPort2}} +rconpassword "{{$RemoteAdminPassword}}" +maxusers {{$MaxUsers}} {{$FormattedArgs}}
+App.CommandLineArgs={{$PlatformArgs}} +ip {{$ApplicationIPBinding}} +port {{$ApplicationPort1}} +queryport {{$ApplicationPort2}} +rconpassword "{{$RemoteAdminPassword}}" +maxusers {{$MaxUsers}} {{$FormattedArgs}}
 App.UseLinuxIOREDIR=False
 App.AppSettings={}
 App.EnvironmentVariables={"LD_LIBRARY_PATH":"{{$FullBaseDir}}linux64:{{$FullRootDir}}linux64:%LD_LIBRARY_PATH%","SteamAppId":"38410"}
