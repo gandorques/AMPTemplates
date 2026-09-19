@@ -36,8 +36,8 @@ App.StoreDownloadLocations={}
 App.ExecutableWin=38410\f2_server.exe
 App.ExecutableLinux=38410/f2_server
 App.WorkingDir=38410
-App.LinuxCommandLineArgs=env F2_SERVER_NET={{$MainGamePort}} F2_SERVER_CMD={{$RemoteAdminPort}}
-App.WindowsCommandLineArgs=set F2_SERVER_NET={{$MainGamePort}} F2_SERVER_CMD={{$RemoteAdminPort}}
+App.LinuxCommandLineArgs=
+App.WindowsCommandLineArgs=
 App.CommandLineArgs=+ip {{$ApplicationIPBinding}} +port {{$ApplicationPort1}} +queryport {{$ApplicationPort2}} +rconpassword "{{$RemoteAdminPassword}}" +maxusers {{$MaxUsers}} {{$FormattedArgs}}
 App.UseLinuxIOREDIR=False
 App.AppSettings={}
@@ -103,12 +103,12 @@ App.QuiesceSettleDelayMilliseconds=5000
 Console.FilterMatchRegex=
 Console.FilterMatchReplacement=
 Console.ThrowawayMessageRegex=^(WARNING|ERROR): Shader.+$
-Console.AppReadyRegex=
-Console.UserJoinRegex=
-Console.UserLeaveRegex=
-Console.UserChatRegex=
+Console.AppReadyRegex=^f\d+_server:\s+control\s+client\s+connected$
+Console.UserJoinRegex=^f\d+_server:\s+account\s+'(?<username>.+)'\s+->\s+slot\s+(?<sessionid>.+)\/.*$
+Console.UserLeaveRegex=^f\d+_server:\s+control\s+slot\s+(?<sessionid>.+)\s+released$
+Console.UserChatRegex=^f\d+_server:\s+control\s+say\s+slot=(?<userid>.+)\s+'(?<message>.+)'$
 Console.UpdateAvailableRegex=
-Console.PreConnectRegex=
+Console.PreConnectRegex=^f\d+_server:\s+client\s+connected\s+\(.*\s+total\)\s+as\s+session\s+(?<sessionid>.+)$
 Console.ConnectIPRegex=
 Console.MetricsRegex=
 Console.ServerInfoRegex=
