@@ -33,7 +33,7 @@ App.BaseDirectory=./fallout-2/38410/
 App.StoresSupported=None
 App.StoreSpecificSettings={}
 App.StoreDownloadLocations={}
-App.ExecutableWin=38410\f2_server.exe
+App.ExecutableWin="env F2_SERVER_NET={{$MainGamePort}} F2_SERVER_CMD={{$RemoteAdminPort}} \ 38410\f2_server.exe"
 App.ExecutableLinux=38410/f2_server
 App.WorkingDir=38410
 App.LinuxCommandLineArgs=env F2_SERVER_NET={{$MainGamePort}} F2_SERVER_CMD={{$RemoteAdminPort}}
@@ -80,7 +80,7 @@ App.TelnetLoginFormat={0}
 App.TelnetNewLineType=Default
 App.TailLogFilePath=server.log
 App.UpdateSources=@IncludeJson[fallout-2updates.json]
-App.PreStartStages=@IncludeJson[fallout-2prestart.json]
+App.PreStartStages=[]
 App.CommandTriggers={}
 App.UserActions=[]
 App.ForceUpdate=False
