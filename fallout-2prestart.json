@@ -1,0 +1,14 @@
+[
+    {
+        "UpdateStageName": "Setting Enviromental Variables",
+        "UpdateSourcePlatform": "Windows",
+        "UpdateSource": "CMD",
+        "UpdateSourceArgs": "set F2_SERVER_NET={{$MainGamePort}} F2_SERVER_CMD={{$RemoteAdminPort}}"
+    },
+    {
+        "UpdateStageName": "",
+        "UpdateSourcePlatform": "Linux",
+        "UpdateSource": "Bash",
+        "UpdateSourceArgs": "env F2_SERVER_NET={{$MainGamePort}} F2_SERVER_CMD={{$RemoteAdminPort}}"
+    }
+]
