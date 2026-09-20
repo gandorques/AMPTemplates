@@ -1,8 +1,0 @@
-[
-    {
-        "UpdateStageName": "Workshop Script Download",
-        "UpdateSourcePlatform": "Linux",
-        "UpdateSource": "Bash",
-        "UpdateSourceArgs": "steamcmd +login anonymous +force_install_dir ./serverfiles +workshop_download_item 261550 3770450698 +quit"
-    }
-]
