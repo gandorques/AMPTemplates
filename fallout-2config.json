@@ -1,7 +1,7 @@
 [
     {
         "DisplayName": "Require Token",
-        "Category": "Aliens versus Predator 2 - Coop:stadia_controller",
+        "Category": "Fallout 2:stadia_controller",
         "Subcategory": "Server:dns:1",
         "Description": "Players require a Matching Token to claim a Character.",
         "Keywords": "require,token",
@@ -19,7 +19,7 @@
     },
     {
         "DisplayName": "Server Name",
-        "Category": "Aliens versus Predator 2 - Coop:stadia_controller",
+        "Category": "Fallout 2:stadia_controller",
         "Subcategory": "Server:dns:1",
         "Description": "The Name of the Server",
         "Keywords": "server,name",
@@ -33,7 +33,7 @@
     },
     {
         "DisplayName": "Difficulty - Game",
-        "Category": "Aliens versus Predator 2 - Coop:stadia_controller",
+        "Category": "Fallout 2:stadia_controller",
         "Subcategory": "Server:dns:1",
         "Description": "The difficulty of anything BUT Combat.",
         "Keywords": "difficulty,-,game",
@@ -52,7 +52,7 @@
     },
     {
         "DisplayName": "Difficulty - Combat",
-        "Category": "Aliens versus Predator 2 - Coop:stadia_controller",
+        "Category": "Fallout 2:stadia_controller",
         "Subcategory": "Server:dns:1",
         "Description": "The difficulty of the Combat.",
         "Keywords": "difficulty,-,combat",
@@ -65,12 +65,13 @@
         "DefaultValue": "1",
         "EnumValues": {
             "0": "Wimpy",
-            "1": "Normal"
+            "1": "Normal",
+            "2": "Rough"
         }
     },
     {
         "DisplayName": "Autosave Intervall",
-        "Category": "Aliens versus Predator 2 - Coop:stadia_controller",
+        "Category": "Fallout 2:stadia_controller",
         "Subcategory": "Server:dns:1",
         "Description": "The time in Minutes between Autosaves.",
         "Keywords": "autosave,intervall",
@@ -89,7 +90,7 @@
     },
     {
         "DisplayName": "Combat Turn Time",
-        "Category": "Aliens versus Predator 2 - Coop:stadia_controller",
+        "Category": "Fallout 2:stadia_controller",
         "Subcategory": "Server:dns:1",
         "Description": "How much time a Player gets for their Combat Turn",
         "Keywords": "combat,turn,time",
