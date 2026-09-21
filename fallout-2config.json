@@ -119,7 +119,7 @@
         "Required": false,
         "ParamFieldName": "$StartupCommand",
         "IncludeInCommandLine": true,
-        "SkipIfEmpty": true,
+        "SkipIfEmpty": false,
         "DefaultValue": "",
         "EnumValues": {
             "": "Lobby Mode",
