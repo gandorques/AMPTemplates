@@ -116,7 +116,7 @@
         "Keywords": "startup,setting",
         "FieldName": "$StartupCommand",
         "InputType": "enum",
-        "Required": true,
+        "Required": false,
         "ParamFieldName": "$StartupCommand",
         "IncludeInCommandLine": true,
         "SkipIfEmpty": true,
