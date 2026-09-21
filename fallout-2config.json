@@ -107,38 +107,5 @@
         "DefaultValue": "60",
         "Placeholder": "60",
         "Suffix": "seconds"
-    },
-    {
-        "DisplayName": "Startup Setting",
-        "Category": "Fallout 2:stadia_controller",
-        "Subcategory": "Server:dns:1",
-        "Description": "Start the Server in Lobby Mode, New Game, or directly load a Savegame",
-        "Keywords": "startup,setting",
-        "FieldName": "$StartupCommand",
-        "InputType": "enum",
-        "Required": false,
-        "ParamFieldName": "$StartupCommand",
-        "IncludeInCommandLine": true,
-        "SkipIfEmpty": false,
-        "DefaultValue": "",
-        "EnumValues": {
-            "": "Lobby Mode",
-            ",\"F2_SERVER_MAP\":\"artemple.map\"": "New Game",
-            ",\"F2_SERVER_LOAD\":\"1\"": "Load Slot 1",
-            ",\"F2_SERVER_LOAD\":\"2\"": "Load Slot 2",
-            ",\"F2_SERVER_LOAD\":\"3\"": "Load Slot 3",
-            ",\"F2_SERVER_LOAD\":\"4\"": "Load Slot 4",
-            ",\"F2_SERVER_LOAD\":\"5\"": "Load Slot 5",
-            ",\"F2_SERVER_LOAD\":\"6\"": "Load Slot 6",
-            ",\"F2_SERVER_LOAD\":\"7\"": "Load Slot 7",
-            ",\"F2_SERVER_LOAD\":\"8\"": "Load Slot 8",
-            ",\"F2_SERVER_LOAD\":\"9\"": "Load Slot 9",
-            ",\"F2_SERVER_LOAD\":\"10\"": "Load Slot 10",
-            ",\"F2_SERVER_LOAD\":\"11\"": "Load Slot 11",
-            ",\"F2_SERVER_LOAD\":\"12\"": "Load Slot 12",
-            ",\"F2_SERVER_LOAD\":\"13\"": "Load Slot 13",
-            ",\"F2_SERVER_LOAD\":\"14\"": "Load Slot 14",
-            ",\"F2_SERVER_LOAD\":\"15\"": "Load Slot 15"
-        }
     }
 ]
