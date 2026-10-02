@@ -452,7 +452,6 @@
         "ParamFieldName": "MaxAutoSaves",
         "IncludeInCommandLine": true,
         "MinValue": 1,
-        "MaxValue": 100,
         "DefaultValue": "5",
         "Placeholder": "5",
         "EnumValues": {}
