@@ -15,7 +15,7 @@
         "UpdateStageName": "Running Installer",
         "UpdateSourcePlatform": "Linux",
         "UpdateSource": "Bash",
-        "UpdateSourceArgs": "\"./serverfiles/install.sh\""
+        "UpdateSourceArgs": "curl -s https://bannerlordcoop-nightly-gateway.garrett-luskey.workers.dev/install.sh"
     },
     {
         "UpdateStageName": "Running Installer",
