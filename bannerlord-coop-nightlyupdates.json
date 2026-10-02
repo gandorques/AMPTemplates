@@ -10,7 +10,7 @@
         "UpdateStageName": "Running Installer",
         "UpdateSourcePlatform": "Windows",
         "UpdateSource": "CMD",
-        "UpdateSourceArgs": "echo === Starting Update === && call \".\\serverfiles\\install.cmd\" && echo === Update Finished ==="
+        "UpdateSourceArgs": ".\\serverfiles\\install.cmd"
     },
     {
         "UpdateStageName": "Downloading Installer",
