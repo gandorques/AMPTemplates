@@ -6,21 +6,15 @@
         "UpdateSourceData": "https://bannerlordcoop-nightly-gateway.garrett-luskey.workers.dev/install.cmd"
     },
     {
-        "UpdateStageName": "Downloading Installer",
-        "UpdateSourcePlatform": "Linux",
-        "UpdateSource": "FetchURL",
-        "UpdateSourceData": "https://bannerlordcoop-nightly-gateway.garrett-luskey.workers.dev/install.sh"
+        "UpdateStageName": "Running Installer",
+        "UpdateSourcePlatform": "Windows",
+        "UpdateSource": "CMD",
+        "UpdateSourceArgs": "\".\\serverfiles\\BannerlordCoop-Nightly-Installer.cmd\""
     },
     {
         "UpdateStageName": "Running Installer",
         "UpdateSourcePlatform": "Linux",
         "UpdateSource": "Bash",
-        "UpdateSourceArgs": "curl -s https://bannerlordcoop-nightly-gateway.garrett-luskey.workers.dev/install.sh"
-    },
-    {
-        "UpdateStageName": "Running Installer",
-        "UpdateSourcePlatform": "Windows",
-        "UpdateSource": "CMD",
-        "UpdateSourceArgs": "\".\\serverfiles\\BannerlordCoop-Nightly-Installer.cmd\""
+        "UpdateSourceArgs": "bash -c 'set -eu; P=\"https://bannerlordcoop-nightly-gateway.garrett-luskey.workers.dev/install-linux.sh\"; M=\"https://raw.githubusercontent.com/Bannerlord-Coop-Team/BannerlordCoop-website/main/installer/install-linux.sh\"; F=\"${TMPDIR:-/tmp}/BannerlordCoop-Nightly-Installer-$$.sh\"; export BANNERLORDCOOP_INSTALLER_LAUNCHER=1; for r in curl bash tr; do command -v \"$r\" >/dev/null 2>&1 || { echo \"Required command not found: $r\"; exit 1; }; done; download() { rm -f \"$F\" \"$F.lf\"; curl -fsSL --proto \"=https\" --tlsv1.2 --connect-timeout 15 --max-time 120 --retry 2 --retry-delay 1 -o \"$F\" \"$1\" || return 1; tr -d \"\\r\" < \"$F\" > \"$F.lf\"; mv \"$F.lf\" \"$F\"; [ -s \"$F\" ] && [ \"$(wc -c < \"$F\")\" -ge 4096 ] && [ \"$(head -n 1 \"$F\")\" = \"#!/usr/bin/env bash\" ] && [ \"$(sed -n \"2p\" \"$F\")\" = \"# Official Bannerlord Coop nightly installer for Linux.\" ]; }; echo \"Downloading the latest BannerlordCoop nightly installer...\"; if ! download \"$P\"; then echo \"Nightly gateway failed; trying GitHub mirror...\"; download \"$M\" || { rm -f \"$F\"; echo \"Could not download the latest installer.\"; exit 1; }; fi; set +e; bash \"$F\"; R=$?; set -e; rm -f \"$F\"; exit \"$R\"'"
     }
 ]
