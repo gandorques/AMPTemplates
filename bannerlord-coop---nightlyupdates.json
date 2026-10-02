@@ -1,0 +1,28 @@
+[
+    {
+        "UpdateStageName": "Downloading Installer",
+        "UpdateSourcePlatform": "Windows",
+        "UpdateSource": "FetchURL",
+        "UpdateSourceData": "https://bannerlordcoop-nightly-gateway.garrett-luskey.workers.dev/install.cmd",
+        "DeleteAfterExtract": true
+    },
+    {
+        "UpdateStageName": "Downloading Installer",
+        "UpdateSourcePlatform": "Linux",
+        "UpdateSource": "FetchURL",
+        "UpdateSourceData": "https://bannerlordcoop-nightly-gateway.garrett-luskey.workers.dev/install.sh",
+        "DeleteAfterExtract": true
+    },
+    {
+        "UpdateStageName": "Running Installer",
+        "UpdateSourcePlatform": "Linux",
+        "UpdateSource": "Bash",
+        "UpdateSourceArgs": "BannerlordCoop-Nightly-Installer.sh"
+    },
+    {
+        "UpdateStageName": "Running Installer",
+        "UpdateSourcePlatform": "Windows",
+        "UpdateSource": "CMD",
+        "UpdateSourceArgs": "BannerlordCoop-Nightly-Installer.cmd"
+    }
+]
