@@ -15,12 +15,12 @@
         "UpdateStageName": "Running Installer",
         "UpdateSourcePlatform": "Linux",
         "UpdateSource": "Bash",
-        "UpdateSourceArgs": "\"./serverfiles/install.sh\""
+        "UpdateSourceArgs": "\"./bannerlord-coop-nightly/serverfiles/install.sh\""
     },
     {
         "UpdateStageName": "Running Installer",
         "UpdateSourcePlatform": "Windows",
         "UpdateSource": "CMD",
-        "UpdateSourceArgs": "\".\\serverfiles\\BannerlordCoop-Nightly-Installer.cmd\""
+        "UpdateSourceArgs": "\".\\bannerlord-coop-nightly\\serverfiles\\BannerlordCoop-Nightly-Installer.cmd\""
     }
 ]
