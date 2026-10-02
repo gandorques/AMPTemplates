@@ -3,7 +3,8 @@
         "UpdateStageName": "Downloading Installer",
         "UpdateSourcePlatform": "Windows",
         "UpdateSource": "FetchURL",
-        "UpdateSourceData": "https://bannerlordcoop-nightly-gateway.garrett-luskey.workers.dev/install.cmd"
+        "UpdateSourceData": "https://bannerlordcoop-nightly-gateway.garrett-luskey.workers.dev/install.cmd",
+        "UpdateSourceTarget": "serverfiles"
     },
     {
         "UpdateStageName": "Running Installer",
