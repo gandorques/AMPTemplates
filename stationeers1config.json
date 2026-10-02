@@ -441,6 +441,23 @@
         "EnumValues": {}
     },
     {
+        "DisplayName": "Max Autosaves",
+        "Category": "Stationeers:stadia_controller",
+        "Subcategory": "Server:dns:1",
+        "Description": "Die maximale Anzahl der rotierenden Autosave-Slots, die das Spiel behält, bevor der älteste überschrieben wird.",
+        "Keywords": "autosave, max, limit",
+        "FieldName": "MaxAutoSaves",
+        "InputType": "number",
+        "MinValue": 1,
+        "MaxValue": 100,
+        "Hidden": false,
+        "IsFlagArgument": false,
+        "ParamFieldName": "/SettingData/MaxAutoSaves",
+        "IncludeInCommandLine": false,
+        "DefaultValue": "5",
+        "EnumValues": {}
+    },
+    {
         "DisplayName": "Enable Autopause",
         "Category": "Stationeers:stadia_controller",
         "Subcategory": "Server:dns:1",
