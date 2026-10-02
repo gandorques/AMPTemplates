@@ -23,6 +23,6 @@
         "UpdateStageName": "Running Installer",
         "UpdateSourcePlatform": "Linux",
         "UpdateSource": "Bash",
-        "UpdateSourceArgs": "\".\\serverfiles\\install.sh\""
+        "UpdateSourceArgs": "\"./serverfiles/install.sh\""
     }
 ]
