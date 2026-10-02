@@ -23,6 +23,6 @@
         "UpdateStageName": "Running Installer",
         "UpdateSourcePlatform": "Linux",
         "UpdateSource": "Bash",
-        "UpdateSourceArgs": "sh \"./serverfiles/install.sh\""
+        "UpdateSourceArgs": "chmod +x ./serverfiles/install.sh ; sh ./serverfiles/install.sh"
     }
 ]
