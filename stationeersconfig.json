@@ -444,7 +444,7 @@
         "DisplayName": "Max Autosaves",
         "Category": "Stationeers:stadia_controller",
         "Subcategory": "Server:dns:1",
-        "Description": "The maximum number of autosave slots to keep before overwriting the oldest file.",
+        "Description": "The maximum number of autosave slots to keep before overwriting the oldest file",
         "Keywords": "autosave, max, limit",
         "FieldName": "MaxAutoSaves",
         "InputType": "number",
