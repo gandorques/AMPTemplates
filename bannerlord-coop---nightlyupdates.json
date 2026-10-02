@@ -17,7 +17,7 @@
         "UpdateStageName": "Running Installer",
         "UpdateSourcePlatform": "Linux",
         "UpdateSource": "Bash",
-        "UpdateSourceArgs": "BannerlordCoop-Nightly-Installer.sh"
+        "UpdateSourceArgs": "install.sh"
     },
     {
         "UpdateStageName": "Running Installer",
