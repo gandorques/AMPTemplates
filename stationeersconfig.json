@@ -440,7 +440,7 @@
         "IncludeInCommandLine": false,
         "EnumValues": {}
     },
-        {
+    {
         "DisplayName": "Max Autosaves",
         "Category": "Stationeers:stadia_controller",
         "Subcategory": "Server:dns:1",
