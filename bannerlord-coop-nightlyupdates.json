@@ -9,7 +9,7 @@
     {
         "UpdateStageName": "Running Installer",
         "UpdateSourcePlatform": "Windows",
-        "UpdateSource": "CMD",
+        "UpdateSource": "PowerShell",
         "UpdateSourceArgs": ".\\serverfiles\\install.cmd"
     },
     {
