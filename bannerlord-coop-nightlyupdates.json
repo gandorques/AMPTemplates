@@ -11,7 +11,7 @@
         "UpdateSourcePlatform": "Windows",
         "UpdateSource": "Executable",
         "UpdateSourceData": "cmd.exe",
-        "UpdateSourceArgs": "/c \"dir && .\\serverfiles\\install.cmd\"",
+        "UpdateSourceArgs": "/c \"cd bannerlord-coop-nightly && install.cmd\"",
         "ProcessToolOutput": true
     },
     {
