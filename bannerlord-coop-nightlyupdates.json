@@ -9,8 +9,10 @@
     {
         "UpdateStageName": "Running Installer",
         "UpdateSourcePlatform": "Windows",
-        "UpdateSource": "PowerShell",
-        "UpdateSourceArgs": ".\\serverfiles\\install.cmd"
+        "UpdateSource": "Executable",
+        "UpdateSourceData": "cmd.exe",
+        "UpdateSourceArgs": ".\\serverfiles\\install.cmd",
+        "ProcessToolOutput": true
     },
     {
         "UpdateStageName": "Downloading Installer",
