@@ -1,14 +1,1 @@
-{
-    {
-        "DisplayName": "Server Name",
-        "Description": "Sets the server name.",
-        "Category": "Server Settings",
-        "FieldName": "ServerName",
-        "InputType": "text",
-        "ParamFieldName": "name",
-        "IncludeInCommandLine": true,
-        "SkipIfEmpty": true,
-        "DefaultValue": "",
-        "EnumValues": {}
-    }
-}
+[]
