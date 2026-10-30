@@ -16,7 +16,7 @@
         "DisplayName": "Max Players",
         "Category": "Interstate 76:stadia_controller",
         "Subcategory": "Server:dns:1",
-        "Description": "",
+        "Description": "Coop caps at 8 Players!",
         "Keywords": "max,players",
         "FieldName": "max",
         "InputType": "number",
@@ -27,5 +27,62 @@
         "SkipIfEmpty": true,
         "DefaultValue": "",
         "Placeholder": "8"
+    },
+    {
+        "DisplayName": "Game",
+        "Category": "Interstate 76:stadia_controller",
+        "Subcategory": "Server:dns:1",
+        "Description": "Base game or Nitro Pack.",
+        "Keywords": "game",
+        "FieldName": "game",
+        "InputType": "enum",
+        "Required": true,
+        "ParamFieldName": "game",
+        "IncludeInCommandLine": true,
+        "DefaultValue": "",
+        "EnumValues": {
+            "i76": "Interstate 76",
+            "nitro": "Nitro Pack"
+        }
+    },
+    {
+        "DisplayName": "Coop Mission",
+        "Category": "Interstate 76:stadia_controller",
+        "Subcategory": "Server:dns:1",
+        "Description": "",
+        "Keywords": "coop,mission",
+        "FieldName": "coop",
+        "InputType": "text",
+        "ParamFieldName": "coop",
+        "IncludeInCommandLine": true,
+        "SkipIfEmpty": true,
+        "DefaultValue": "",
+        "Placeholder": "A01"
+    },
+    {
+        "DisplayName": "Arena Map",
+        "Category": "Interstate 76:stadia_controller",
+        "Subcategory": "Server:dns:1",
+        "Description": "",
+        "Keywords": "arena,map",
+        "FieldName": "arena",
+        "InputType": "text",
+        "ParamFieldName": "arena",
+        "IncludeInCommandLine": true,
+        "SkipIfEmpty": true,
+        "DefaultValue": ""
+    },
+    {
+        "DisplayName": "Password",
+        "Category": "Interstate 76:stadia_controller",
+        "Subcategory": "Server:dns:1",
+        "Description": "",
+        "Keywords": "password",
+        "FieldName": "password",
+        "InputType": "text",
+        "ParamFieldName": "password",
+        "IncludeInCommandLine": true,
+        "SkipIfEmpty": true,
+        "DefaultValue": ""
     }
 ]
