@@ -13,6 +13,7 @@
         "UpdateSourceData": "i26-0.10.0-linux.zip",
         "UpdateSourceArgs": "vahokif/I26",
         "UpdateSourceTarget": "./serverfiles/I26-Install",
+        "UnzipUpdateSource": true,
         "OverwriteExistingFiles": true,
         "DeleteAfterExtract": true
     },
