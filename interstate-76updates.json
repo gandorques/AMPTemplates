@@ -40,5 +40,12 @@
         "UpdateSourcePlatform": "Linux",
         "UpdateSource": "Bash",
         "UpdateSourceArgs": "cp -a ./serverfiles/I26-Install/*/. ./serverfiles/I26-Game/"
+    },
+    {
+        "UpdateStageName": "Cleanup Install Folder",
+        "UpdateSourcePlatform": "Linux",
+        "UpdateSource": "Bash",
+        "UpdateSourceArgs": "rm -rf ./serverfiles/I26-Install/*",
+        "SkipOnFailure": true
     }
 ]
