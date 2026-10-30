@@ -5,11 +5,27 @@
         "Subcategory": "Server:dns:1",
         "Description": "The name displayed in the Server browser.",
         "Keywords": "server,name",
-        "FieldName": "ServerName",
+        "FieldName": "name",
         "InputType": "text",
         "ParamFieldName": "name",
         "IncludeInCommandLine": true,
         "SkipIfEmpty": true,
         "DefaultValue": "AMP Powered Server"
+    },
+    {
+        "DisplayName": "Max Players",
+        "Category": "Interstate 76:stadia_controller",
+        "Subcategory": "Server:dns:1",
+        "Description": "",
+        "Keywords": "max,players",
+        "FieldName": "max",
+        "InputType": "number",
+        "MinValue": 1,
+        "MaxValue": 32,
+        "ParamFieldName": "max",
+        "IncludeInCommandLine": true,
+        "SkipIfEmpty": true,
+        "DefaultValue": "",
+        "Placeholder": "8"
     }
 ]
