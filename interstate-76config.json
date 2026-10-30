@@ -39,7 +39,7 @@
         "Required": true,
         "ParamFieldName": "game",
         "IncludeInCommandLine": true,
-        "DefaultValue": "",
+        "DefaultValue": "i76",
         "EnumValues": {
             "i76": "Interstate 76",
             "nitro": "Nitro Pack"
