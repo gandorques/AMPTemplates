@@ -1,0 +1,36 @@
+[
+    {
+        "UpdateStageName": "Github Download Linux",
+        "UpdateSourcePlatform": "Linux",
+        "UpdateSource": "GithubRelease",
+        "UpdateSourceData": "i26-0.10.0-linux.zip",
+        "UpdateSourceArgs": "vahokif/I26",
+        "UpdateSourceTarget": "I26-Install",
+        "OverwriteExistingFiles": true,
+        "DeleteAfterExtract": true
+    },
+    {
+        "UpdateStageName": "Github Download Windows",
+        "UpdateSourcePlatform": "Windows",
+        "UpdateSource": "GithubRelease",
+        "UpdateSourceData": "i26-0.10.0-linux.zip",
+        "UpdateSourceArgs": "vahokif/I26",
+        "UpdateSourceTarget": "I26-Install",
+        "UnzipUpdateSource": true,
+        "OverwriteExistingFiles": true,
+        "DeleteAfterExtract": true
+    },
+    {
+        "UpdateStageName": "Prepare Game Folder",
+        "UpdateSourcePlatform": "Linux",
+        "UpdateSource": "Bash",
+        "UpdateSourceArgs": "mkdir -p I26-Game",
+        "SkipOnFailure": true
+    },
+    {
+        "UpdateStageName": "Copy Files",
+        "UpdateSourcePlatform": "Linux",
+        "UpdateSource": "Bash",
+        "UpdateSourceArgs": "cp -a I26-Install/*/. I26-Game/"
+    }
+]
