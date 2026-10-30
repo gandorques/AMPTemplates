@@ -7,7 +7,7 @@
         "Keywords": "server,name",
         "FieldName": "ServerName",
         "InputType": "text",
-        "ParamFieldName": "-name",
+        "ParamFieldName": "name",
         "IncludeInCommandLine": true,
         "SkipIfEmpty": true,
         "DefaultValue": "AMP Powered Server"
