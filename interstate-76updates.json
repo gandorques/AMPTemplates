@@ -1,10 +1,9 @@
 [
     {
-        "UpdateStageName": "",
-        "UpdateSourcePlatform": "All",
-        "UpdateSource": "CreateFile",
-        "UpdateSourceArgs": ".\\servefiles\\I26-Install",
-        "OverwriteExistingFiles": true,
+        "UpdateStageName": "Prepare Install Folder",
+        "UpdateSourcePlatform": "Linux",
+        "UpdateSource": "Bash",
+        "UpdateSourceArgs": "mkdir -p ./serverfiles/I26-Install",
         "SkipOnFailure": true
     },
     {
