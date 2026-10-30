@@ -1,5 +1,13 @@
 [
     {
+        "UpdateStageName": "",
+        "UpdateSourcePlatform": "All",
+        "UpdateSource": "CreateFile",
+        "UpdateSourceArgs": ".\\I26-Install",
+        "OverwriteExistingFiles": true,
+        "SkipOnFailure": true
+    },
+    {
         "UpdateStageName": "Github Download Linux",
         "UpdateSourcePlatform": "Linux",
         "UpdateSource": "GithubRelease",
