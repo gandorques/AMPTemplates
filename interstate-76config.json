@@ -56,8 +56,7 @@
         "ParamFieldName": "coop",
         "IncludeInCommandLine": true,
         "SkipIfEmpty": true,
-        "DefaultValue": "",
-        "Placeholder": "A01"
+        "DefaultValue": ""
     },
     {
         "DisplayName": "Arena Map",
