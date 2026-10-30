@@ -5,7 +5,7 @@
         "Subcategory": "Server:dns:1",
         "Description": "The name displayed in the Server browser.",
         "Keywords": "server,name",
-        "FieldName": "ServerName",
+        "FieldName": "$ServerName",
         "InputType": "text",
         "ParamFieldName": "--name",
         "IncludeInCommandLine": true,
