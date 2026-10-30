@@ -13,7 +13,7 @@
         "UpdateSource": "GithubRelease",
         "UpdateSourceData": "i26-0.10.0-linux.zip",
         "UpdateSourceArgs": "vahokif/I26",
-        "UpdateSourceTarget": "serverfiles\\I26-Install",
+        "UpdateSourceTarget": "./serverfiles/I26-Install",
         "OverwriteExistingFiles": true,
         "DeleteAfterExtract": true
     },
@@ -39,6 +39,6 @@
         "UpdateStageName": "Copy Files",
         "UpdateSourcePlatform": "Linux",
         "UpdateSource": "Bash",
-        "UpdateSourceArgs": "cp -a ./serverfiles/I26-Install/*/. .serverfiles/I26-Game/"
+        "UpdateSourceArgs": "cp -a ./serverfiles/I26-Install/*/. ./serverfiles/I26-Game/"
     }
 ]
